@@ -32,6 +32,7 @@ const AdminLogin = () => {
     // }
 
     // Demo login
+    // Use admin@demo.com / admin123
     setTimeout(() => {
       if (email === 'admin@demo.com' && password === 'admin123') {
         setIsAdmin(true);
@@ -90,9 +91,9 @@ const AdminLogin = () => {
             </Button>
           </form>
 
-          <div className="mt-6 p-4 bg-muted rounded-lg text-sm text-muted-foreground text-center">
+          {/* <div className="mt-6 p-4 bg-muted rounded-lg text-sm text-muted-foreground text-center">
             <strong>Demo:</strong> admin@demo.com / admin123
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
